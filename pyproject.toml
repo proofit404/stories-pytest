@@ -1,15 +1,29 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
 [tool.poetry]
-name = "stories-pytest"
-version = "0.1.0"
-description = "Pytest reporter for stories executed during the test."
 authors = ["Artem Malyshev <proofit404@gmail.com>"]
-license = "BSD-2-Clalause"
+classifiers = [
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+description = "Pytest reporter for stories executed during the test."
+documentation = "https://proofit404.github.io/stories-pytest"
+homepage = "https://pypi.org/project/stories-pytest"
+license = "BSD-2-Clause"
+name = "stories-pytest"
+packages = [
+    { include = "_stories_pytest", from = "src" },
+    { include = "stories_pytest", from = "src" },
+]
+readme = "docs/index.md"
+repository = "https://github.com/proofit404/stories-pytest"
+version = "0.2.0dev0"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "~3.6 || ~3.7 || ~3.8 || ~3.9"
 
-[tool.poetry.dev-dependencies]
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+[tool.poetry.urls]
+Changelog = "https://proofit404.github.io/stories-pytest/changelog"
+Issues = "https://github.com/proofit404/stories-pytest/issues"

@@ -1,0 +1,25 @@
+{
+  "template": "https://github.com/proofit404/python-library-template",
+  "commit": "4b9d3932b778f1a36135084bcb05af3eca87069e",
+  "context": {
+    "cookiecutter": {
+      "project_name": "stories-pytest",
+      "public_module_name": "stories_pytest",
+      "private_module_name": "_stories_pytest",
+      "exception_name": "StoryPytestError",
+      "project_version": "0.2.0dev0",
+      "project_description": "Pytest reporter for stories executed during the test.",
+      "author_name": "Artem Malyshev",
+      "author_email": "proofit404@gmail.com",
+      "github_user": "proofit404",
+      "github_repository": "https://github.com/proofit404/stories-pytest",
+      "issues_url": "https://github.com/proofit404/stories-pytest/issues",
+      "documentation_url": "https://proofit404.github.io/stories-pytest",
+      "changelog_url": "https://proofit404.github.io/stories-pytest/changelog",
+      "pypi_project": "https://pypi.org/project/stories-pytest",
+      "azure_definition_id": "10",
+      "_template": "https://github.com/proofit404/python-library-template"
+    }
+  },
+  "directory": null
+}
