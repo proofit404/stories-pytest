@@ -19,16 +19,6 @@ A paragraph of text explaining the goal of the library…
 - B feature
 - etc
 
-## Example
-
-A line of text explaining snippet below…
-
-```pycon
-
->>> from stories_pytest import *
-
-```
-
 ## Questions
 
 If you have any questions, feel free to create an issue in our
