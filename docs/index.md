@@ -11,13 +11,25 @@ Pytest reporter for stories executed during the test.
 [Source Code](https://github.com/proofit404/stories-pytest) |
 [Task Tracker](https://github.com/proofit404/stories-pytest/issues)**
 
+![Py.Test](./images/pytest.png)
+
 A paragraph of text explaining the goal of the library…
+
+This plugin is enabled by default.
+
+To disable it add `-p no:stories` argument to the `pytest` command.
 
 ## Pros
 
-- A feature
-- B feature
-- etc
+This pytest plugin provides additional report for failed tests.
+
+This report contains:
+
+1. Stories executed by the failed test in chronological order.
+2. Precise line number of the test function which caused execution of the
+   particular story.
+3. Execution path of each story.
+4. State of each story.
 
 ## Example
 
